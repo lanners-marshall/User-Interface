@@ -73,15 +73,16 @@ nav a {
 
 nav {
 	display: inline-block;
-    margin-left: 207px;
-    margin-right: 207px;
+/*    margin-left: 207px;
+    margin-right: 207px;*/
     margin-top: 25px;
     margin-bottom: 10px;
 }
 .wrap {
 	margin-top: 21px;
     margin-right: 24px;
-    margin-left: 274px;
+    margin-left: 60px
+/*    margin-left: 274px;*/
 }
 .left {
     float: left;
@@ -89,26 +90,27 @@ nav {
 
 
 .big-title {
-	font-size: 60px;
-	text-align: center;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
 }
 
 .div-img {
 	margin-left: 100px
 }
 .col {
-	column-count: 2;
-    margin-left: 207px;
-    margin-right: 207px;
+    column-count: 2;
     margin-top: 25px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .col2 {
 	column-count: 3;
-    margin-left: 207px;
-    margin-right: 207px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .button {
     position: relative;
@@ -125,13 +127,14 @@ nav {
 }
 
 .fit {
-    margin-left: 207px;
-    margin-right: 207px;
+/*    margin-left: 207px;
+    margin-right: 207px;*/
 }
 .fit2 {
-	margin-left: 207px;
-    margin-right: 207px;
-	margin-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .middle-img {
@@ -143,4 +146,13 @@ nav {
 .center-me {
 	text-align: center;
 	margin-bottom: 25px;
+}
+
+.container {
+    margin-left: 207px;
+    margin-right: 207px;
+    background-color: #d2d2ff;
+    border: solid black 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
